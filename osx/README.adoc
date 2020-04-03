@@ -4,10 +4,18 @@ Folder: `./firefox github.app`
 
 It's a OSX Application Bundle and can be editted in `Script Editor`.
 
-### Usage
+### Installation
 
 Copy the bundle into `Applications` folder.
 
 When accessing a URL starts with `firefox-github://` or `firefox-githubs://`, it will launch firefox to open the URL.
 
+Set chrome as default browser.
+
 To auto redirect normal URLs to this URL, install extension on Chrome: https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd
+
+Import Redirector config, in which:
+
+* Redirect to firefox-github when accessing Thinkei repositories.
+* Redirect to firefox-github when accessing host `github-eh`.
+* Redirect to firefox-github when accessing host `circleci`.

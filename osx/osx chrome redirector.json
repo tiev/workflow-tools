@@ -1,0 +1,57 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2020-04-03T07:17:10.263Z",
+    "redirects": [
+        {
+            "description": "Github vieteh",
+            "exampleUrl": "https://github.com/Thinkei/employment-hero",
+            "exampleResult": "firefox-githubs://github.com/Thinkei/employment-hero",
+            "error": null,
+            "includePattern": "http(s*)://github.com/Thinkei(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "firefox-github$1://github.com/Thinkei$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Github-eh",
+            "exampleUrl": "https://github-eh/Thinkei/employment-hero",
+            "exampleResult": "firefox-githubs://github.com/Thinkei/employment-hero",
+            "error": null,
+            "includePattern": "http(s*)://github-eh/Thinkei(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "firefox-github$1://github.com/Thinkei$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "circle ci",
+            "exampleUrl": "https://circleci.com/workflow-run/de2ee2bb-390b-4aa3-be85-01d32a819b7a",
+            "exampleResult": "firefox-githubs://circleci.com/workflow-run/de2ee2bb-390b-4aa3-be85-01d32a819b7a",
+            "error": null,
+            "includePattern": "http(s*)://circleci.com(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "firefox-github$1://circleci.com$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}

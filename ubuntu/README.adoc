@@ -1,0 +1,26 @@
+## FirefoxGithub URL scheme handler
+
+[NOTE]
+Google Chrome does not recognize custom URL scheme handler, then we can only use this custom handler in Firefox to jump to chrome.
+
+### Installation
+
+Copy file `./firefox-github.desktop` into `~/.local/share/applications/`
+
+```
+$ xdg-mime default firefox-github.desktop x-scheme-handler/firefox-github
+$ xdg-mime default firefox-github.desktop x-scheme-handler/firefox-githubs
+```
+
+[NOTE]
+2 above commands add defaults to `~/.config/mimeapps.list`.
+But if it is not detected, try adding the defaults to `~/.local/share/applications/mimeapps.list`
+
+When accessing a URL starts with `firefox-github://` or `firefox-githubs://`, it will launch chrome to open the URL.
+
+Set firefox as default browser.
+
+Install Redirector addon in firefox and import config file `./ubuntu firefox redirector.json`, in which:
+
+* Redirect access to repositories different from Thinkei to chrome.
+* Redirect `github-eh` host to `github.com`.

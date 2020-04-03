@@ -1,0 +1,40 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2020-04-03T07:18:55.548Z",
+    "redirects": [
+        {
+            "description": "Github vieteh",
+            "exampleUrl": "https://github.com/github/employment-hero",
+            "exampleResult": "firefox-githubs://github.com/github/employment-hero",
+            "error": null,
+            "includePattern": "http(s*)://github.com/(?!Thinkei)(.*/.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "firefox-github$1://github.com/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Github-eh",
+            "exampleUrl": "https://github-eh/Thinkei/employment-hero",
+            "exampleResult": "https://github.com/Thinkei/employment-hero",
+            "error": null,
+            "includePattern": "http(s*)://github-eh/Thinkei(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http$1://github.com/Thinkei$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}

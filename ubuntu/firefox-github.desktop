@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=firefox github
+Exec=env my_url=%u zsh -c "google-chrome ${my_url/firefox-github/http}"
+StartupNotify=false
+MimeType=x-scheme-handler/firefox-github;
