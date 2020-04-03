@@ -1,0 +1,13 @@
+## FirefoxGithub URL scheme handler
+
+Folder: `./firefox github.app`
+
+It's a OSX Application Bundle and can be editted in `Script Editor`.
+
+### Usage
+
+Copy the bundle into `Applications` folder.
+
+When accessing a URL starts with `firefox-github://` or `firefox-githubs://`, it will launch firefox to open the URL.
+
+To auto redirect normal URLs to this URL, install extension on Chrome: https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd
