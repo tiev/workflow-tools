@@ -1,0 +1,6 @@
+I have 2 Github accounts, one for my company and one for my personal uses. I want my OSS contributions counted for my personal account.
+
+Back when Github hasn't supported switching multiple accounts, having company & personal Github accounts is hard.
+Accessing company repository requires using company account.
+
+Solution: I use different browsers for different accounts. And I want Github URL to automagically opened in the corresponding browser.
